@@ -34,6 +34,7 @@
 }
 
 .logo {
+	text-decoration: none;
 	font-family: Brush Script MT, Brush Script Std, cursive;
 	margin-left: 10px;
 	color: white;
