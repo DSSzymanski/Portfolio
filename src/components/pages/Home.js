@@ -1,10 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Profile from '../Profile/Profile';
 
 function Home() {
 	return (
-		<h1>Hello World from Home</h1>
-	)
+		<div>
+			<Profile />
+		</div>
+	);
 }
 
 export default Home;
