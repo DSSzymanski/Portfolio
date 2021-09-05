@@ -24,7 +24,7 @@
 }
 
 .nav-links:hover {
-	background-color: purple;
+	background-color: rgba(79,79,85,1);
 	border-radius: 4px;
 	transition: all 0.2s ease-out;
 }
@@ -35,14 +35,17 @@
 
 .logo {
 	text-decoration: none;
-	font-family: Brush Script MT, Brush Script Std, cursive;
 	margin-left: 10px;
 	color: white;
 	padding: .5rem;
 }
 
+.logo > h1 {
+	font-family: Brush Script MT, Brush Script Std, cursive !important;
+}
+
 .logo:hover {
-	background-color: purple;
+	background-color: rgba(79,79,85,1);
 	border-radius: 4px;
 	transition: all 0.2s ease-out;
 }
@@ -79,9 +82,7 @@
 	}
 
 	.nav-links:hover {
-		background-color: purple;
 		border-radius: 0;
-		transition: all 0.2s ease-out;
 	}
 
 	.logo {
@@ -89,12 +90,6 @@
 		top: 0;
 		left: 0;
 		transform: translateY(10%);
-	}
-
-	.logo:hover {
-		background-color: purple;
-		border-radius: 4px;
-		transition: all 0.2s ease-out;
 	}
 
 	.menu-icon {
