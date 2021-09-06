@@ -14,10 +14,12 @@
 	font-size: 18px;
 	border-radius: 4px;
 	border: 1px solid rgba(79,79,85,1);
+	transition: all 0.2 ease-out;
 }
 
 .profile-link:hover {
-	background: linear-gradient(90deg, rgba(27,27,28,1), rgba(79,79,85,1) 50%, rgba(27,27,28,1) 100%);;
+	background: linear-gradient(90deg, rgba(27,27,28,1), rgba(79,79,85,1) 50%, rgba(27,27,28,1) 100%);
+	transform: scale(1.1);
 	color: white;
 }
 
