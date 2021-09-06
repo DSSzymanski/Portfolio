@@ -1,7 +1,7 @@
 export const NavItems = [
 	{
-		title: 'Skills',
-		path: '/skills',
+		title: 'About',
+		path: '/',
 		cName: 'nav-links'
 	},
 	{

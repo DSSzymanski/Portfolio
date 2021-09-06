@@ -1,9 +1,12 @@
 import React from 'react';
+import ProjectCards from '../Card/ProjectCards';
 import '../../App.css';
 
 function Projects() {
 	return (
-		<h1>Hello World from Projects</h1>
+		<>
+			<ProjectCards />
+		</>
 	);
 }
 
