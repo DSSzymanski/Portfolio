@@ -1,17 +1,24 @@
 .ProjectsHeader {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
-.ProjectCards{
-	display: flex;
-	flex-direction: column;
+.ProjectCards {
+	margin-top: 10px;
 	justify-content: center;
 	align-items: center;
+	display: flex;
 }
 
 .card-list {
+	width: 80%;
 	padding: 1rem 4rem;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 5%;
+}
+
+.card-list {
 	list-style: none;
 }
 
@@ -20,6 +27,11 @@
 	border-radius: 10px;
 	box-shadow: 0 10px 20px rgba(56, 125, 255, 0.15);
 	margin-bottom: 30px;
+	transition: all 0.1s ease-out;
+}
+
+.card-container:hover, .card-container:focus{
+	transform: scale(1.1);
 }
 
 .card-image {
@@ -47,7 +59,6 @@
 	bottom: 0;
 	right: 0;
 	display: flex;
-
 }
 
 .tag-container {
@@ -79,4 +90,21 @@
 
 .cSharp {
 	background: purple;
+}
+
+.mini {
+	background: black;
+}
+
+@media screen and (max-width: 960px) {
+	.card-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ProjectsHeader {
+		margin-top: 10px;
+	}
 }
