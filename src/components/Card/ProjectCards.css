@@ -27,8 +27,51 @@
 	width: 100%;
 }
 
+.card-body {
+	text-decoration: none;
+}
+
 .card-title {
+	color:rgba(27,27,28,1);
 	font-size: 1rem;
 	padding: 1rem;
 	text-align: center;
+}
+
+.card-image-container {
+	position: relative;
+}
+
+.tag-container {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+
+.tag-text {
+	color: white;
+	font-size: .75rem;
+	padding: 4px;
+}
+
+.tag-wrapper {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.js {
+	background: red;
+}
+
+.python {
+	background: green;
+}
+
+.react {
+	background: blue;
+}
+
+.cSharp {
+	background: purple;
 }

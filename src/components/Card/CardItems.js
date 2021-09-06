@@ -2,6 +2,7 @@ export const CardItems = [
 	{
 		title: 'Sorting Visualizer',
 		img: 'images/Sorting-Visualizer.png',
+		path: '/',
 		tags: 'Web .js'
 	},
 	{
