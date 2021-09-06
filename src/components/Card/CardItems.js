@@ -18,11 +18,22 @@ const cSharp = {
 	text: 'C#'
 }
 
+const mini = {
+	cName: 'mini',
+	text: 'Mini'
+}
+
 export const CardItems = [
 	{
 		title: 'Sorting Visualizer',
 		img: 'images/Sorting-Visualizer.png',
 		path: '/',
-		tags: [js, python, react, cSharp]
+		tags: [js, react]
+	},
+	{
+		title: 'test',
+		img: '',
+		path: '/',
+		tags: [js, python, react, cSharp, mini]
 	}
 ];
