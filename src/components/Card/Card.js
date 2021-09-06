@@ -6,7 +6,12 @@ function Card(props) {
 	return (
 		<Link className='card-body' to={props.item.path}>
 			<figure className='card-image-container'>
-				<img src={props.item.img} alt="Project Screenshot" className='card-image'/>
+				<img 
+					src={props.item.img} 
+					alt="Project Screenshot" 
+					className='card-image'
+					onError={(e)=>{e.target.onerror=null; e.target.src='images/Not-Found.png'}}
+				/>
 				<ul className="tag-list">
 					{
 						props.item.tags.map((tag, index) => {
