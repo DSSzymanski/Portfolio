@@ -7,7 +7,15 @@ function Card(props) {
 		<Link className='card-body' to={props.item.path}>
 			<figure className='card-image-container'>
 				<img src={props.item.img} alt="Project Screenshot" className='card-image'/>
-				<Tag cName='js' text='javascript'/>
+				<ul className="tag-list">
+					{
+						props.item.tags.map((tag, index) => {
+							return (
+								<Tag cName={tag.cName} key={index} text={tag.text} />
+							)
+						})
+					}
+				</ul>
 			</figure>
 			<h5 className='card-title'>
 				{props.item.title}

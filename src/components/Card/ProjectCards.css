@@ -42,10 +42,15 @@
 	position: relative;
 }
 
-.tag-container {
+.tag-list {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	display: flex;
+
+}
+
+.tag-container {
 	margin-right: 3px;
 	margin-bottom: 3px;
 }
