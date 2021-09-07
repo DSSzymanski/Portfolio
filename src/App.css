@@ -4,3 +4,16 @@
   font-family: Georgia, serif;
   box-sizing: content-box;
 }
+
+.App {
+  position: relative;
+  min-height: 95vh;
+  padding-bottom: 5vh;
+}
+
+@media screen and (max-width: 960px) {
+  .App {
+    min-height: 90vh;
+    padding-bottom: 10vh;
+  }
+}
