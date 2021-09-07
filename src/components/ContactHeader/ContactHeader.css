@@ -1,0 +1,20 @@
+.contact-page-header > h1 {
+    margin-top: 10px;
+}
+
+.contact-page-header {
+    text-align: center;
+}
+
+.contact-blurb {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .contact-blurb{
+        margin: 10px;
+        text-align: center;
+    }
+}
