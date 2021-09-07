@@ -7,6 +7,8 @@
 
 .contact-form-container {
     width: 50%;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .contact-info {
@@ -59,6 +61,7 @@ label {
     font-size: 1.2rem;
     margin-right: 2px;
     width: 100%;
+    text-align: left;
 }
 
 input {

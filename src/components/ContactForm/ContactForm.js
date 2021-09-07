@@ -5,6 +5,7 @@ import './ContactForm.css';
 function ContactForm() {
     return (
         <div className='contact-form-container'>
+            <h1>Email Me</h1>
             <form action='mailto:danielsszymanski@gmail.com' method='POST' encType='multipart/form-data' name='EmailForm'>
                 <div className="contact-info-container flex-center-center">
                     <div className="contact-info">
