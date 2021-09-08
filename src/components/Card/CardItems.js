@@ -35,5 +35,11 @@ export const CardItems = [
 		img: '',
 		path: '/',
 		tags: [js, python, react, cSharp, mini]
+	},
+	{
+		title: 'test',
+		img: '',
+		path: '/',
+		tags: [js, python, react, cSharp, mini]
 	}
 ];
