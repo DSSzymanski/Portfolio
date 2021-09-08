@@ -5,10 +5,22 @@
     flex-direction: column;
 }
 
+.contact-banner {
+    background: linear-gradient(90deg, rgba(27,27,28,1), rgba(79,79,85,1) 50%, rgba(27,27,28,1) 100%);
+    padding: 1.5rem;
+    color: white;
+    margin-bottom: 10px;;
+}
+
 .contact-form-container {
-    width: 100%;
+    background-color: rgb(226, 226, 236);
+    width: 40%;
     text-align: center;
     margin-top: 25px;
+}
+
+.contact-form {
+    box-shadow: 0 10px 20px rgba(56, 125, 255, 0.15);
 }
 
 .contact-info {
@@ -19,16 +31,17 @@
 }
 
 .contact-info-container {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 25px;
-    width: 60%;
+    width: 80%;
 }
 
 .contact-message {
-    width: 60%;
+    width: 80%;
     text-align: center;
     margin-top: 25px;
+}
+
+#message {
+    resize: none;
 }
 
 button {
@@ -41,6 +54,7 @@ button {
 	border: 1px solid rgba(79,79,85,1);
 	transition: all 0.2 ease-out;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 button:hover {
@@ -50,13 +64,13 @@ button:hover {
 label {
     font-size: 1.2rem;
     margin-right: 2px;
-    width: 10%;
+    width: 20%;
     text-align: left;
 }
 
 input {
     height: 2rem;
-    width: 90%;
+    width: 80%;
 }
 
 textarea {
@@ -68,19 +82,15 @@ textarea {
 @media screen and (max-width: 960px) {
     .contact-info-container {
         display: block;
+    }
+
+    .contact-form-container {
         width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact-message {
         margin-top: 10px;
-        width: 80%;
-    }
-
-    label {
-        width: 20%;
-    }
-
-    input {
-        width: 80%;
     }
 }
