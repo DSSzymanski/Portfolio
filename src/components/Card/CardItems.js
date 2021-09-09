@@ -27,6 +27,7 @@ export const CardItems = [
 	{
 		title: 'Sorting Visualizer',
 		img: 'images/Sorting-Visualizer.png',
+		blurb: 'A web based project displaying 5 sorting algorithms using SVG graphs.',
 		path: '/',
 		tags: [js, react]
 	},

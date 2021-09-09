@@ -22,10 +22,15 @@ function Card(props) {
 					}
 				</ul>
 			</figure>
-			<h5 className='card-title'>
-				{props.item.title}
-			</h5>
-		</Link>			
+			<div className="card-hover-container">
+				<h5 className="card-title">
+					{props.item.title}
+				</h5>
+				<div className="card-blurb">
+					{props.item.blurb}
+				</div>
+			</div>
+		</Link>
 	);
 }
 

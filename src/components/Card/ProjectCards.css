@@ -23,17 +23,13 @@
 	border-radius: 10px;
 	box-shadow: 0 10px 20px rgba(56, 125, 255, 0.15);
 	margin-bottom: 30px;
-	transition: all 0.1s ease-out;
-}
-
-.card-container:hover, .card-container:focus{
-	transform: scale(1.1);
 }
 
 .card-image {
-	border-radius: 10px 10px 0px 0px;
 	width: 100%;
 	height: 100%;
+	display: block;
+	border-radius: 9px;
 }
 
 .card-body {
@@ -42,30 +38,56 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	height: 100%;
+	position: relative;
 }
 
 .card-title {
-	color:rgba(27,27,28,1);
+	color:white;
 	font-size: 1.2rem;
 	padding: 1rem 1.2rem;
 	width: 10em;	
 	text-align: center;
 }
 
+.card-blurb {
+	width: 95%;
+}
+
 .card-image-container {
-	position: relative;
+	height: 100%;
+	transition: all 0.3s ease-out;
+}
+
+.card-image-container:hover {
+	opacity: 0;
+}
+
+.card-hover-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(79,79,85,1) 0%, rgba(27,27,28,1) 10%,rgba(27,27,28,1) 90%, rgba(79,79,85,1) 100%);
+	border-radius: 10px;
+	text-align: center;
+	color: white;
 }
 
 .tag-list {
+	list-style: none;
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	right: 5px;
 	display: flex;
 }
 
 .tag-container {
-	margin-right: 3px;
-	margin-bottom: 4px;
+	margin-right: 5px;
 }
 
 .tag-text {
@@ -104,6 +126,10 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.card-image {
+		height: 100%;
 	}
 
 	.ProjectsHeader {
