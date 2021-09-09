@@ -7,8 +7,8 @@
 
 .App {
   position: relative;
-  min-height: 95vh;
-  padding-bottom: 5vh;
+  min-height: 93vh;
+  padding-bottom: 7vh;
 }
 
 @media screen and (max-width: 960px) {
