@@ -35,7 +35,7 @@ export const CardItems = [
 		title: 'test',
 		img: '',
 		path: '/',
-		tags: [js, python, react, cSharp, mini]
+		tags: [js]
 	},
 	{
 		title: 'N-Queens Visualization',

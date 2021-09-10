@@ -15,8 +15,12 @@
 .contact-form-container {
     background-color: rgb(226, 226, 236);
     width: 40%;
+    position: relative;
+    margin-left: auto;
+    margin-right: 25px;
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .contact-form {
@@ -88,6 +92,8 @@ textarea {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
+        margin-bottom: 25px;
     }
 
     .contact-message {
