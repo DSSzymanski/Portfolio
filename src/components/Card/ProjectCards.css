@@ -63,6 +63,10 @@
 	opacity: 0;
 }
 
+.card-icon {
+	margin-top: 10px;
+}
+
 .card-hover-container {
 	display: flex;
 	flex-direction: column;

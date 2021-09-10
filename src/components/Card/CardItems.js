@@ -28,8 +28,8 @@ export const CardItems = [
 		title: 'Sorting Visualizer',
 		img: 'images/Sorting-Visualizer.png',
 		blurb: 'A web based project displaying 5 sorting algorithms using SVG graphs.',
-		path: '/',
-		tags: [js, react]
+		path: 'https://github.com/DSSzymanski/Sorting-Visualizer',
+		tags: [js]
 	},
 	{
 		title: 'test',
@@ -38,9 +38,10 @@ export const CardItems = [
 		tags: [js, python, react, cSharp, mini]
 	},
 	{
-		title: 'test',
-		img: '',
-		path: '/',
-		tags: [js, python, react, cSharp, mini]
+		title: 'N-Queens Visualization',
+		img: 'images/N-Queens-Visualization.png',
+		blurb: 'N-Queens puzzle solver using a backtracking algorithm and displayed on a canvas.',
+		path: 'https://github.com/DSSzymanski/N-Queens-Visualization',
+		tags: [js]
 	}
 ];

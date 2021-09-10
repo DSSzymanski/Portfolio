@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Tag from './Tag';
 
 function Card(props) {
 	return (
-		<Link className='card-body' to={props.item.path}>
+		<a className='card-body' href={props.item.path}>
 			<figure className='card-image-container'>
 				<img 
 					src={props.item.img} 
@@ -29,8 +28,11 @@ function Card(props) {
 				<div className="card-blurb">
 					{props.item.blurb}
 				</div>
+				<div className="card-icon">
+					<img src='images/Github-Mark-Light-32px.png' alt='Github'></img>
+				</div>
 			</div>
-		</Link>
+		</a>
 	);
 }
 
