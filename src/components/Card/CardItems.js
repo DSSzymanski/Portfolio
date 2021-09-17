@@ -3,21 +3,22 @@ const js = {
 	text: 'Javascript'
 }
 
+/*
 const python = {
 	cName: 'python',
 	text: 'Python'
 }
-
+*/
 const react = {
 	cName: 'react',
 	text: 'React'
 }
-
+/*
 const cSharp = {
 	cName: 'cSharp',
 	text: 'C#'
 }
-
+*/
 const mini = {
 	cName: 'mini',
 	text: 'Mini'
@@ -32,10 +33,11 @@ export const CardItems = [
 		tags: [js]
 	},
 	{
-		title: 'test',
-		img: '',
-		path: '/',
-		tags: [js]
+		title: 'Countdown Webpage',
+		img: 'images/Countdown-Timer.png',
+		blurb: 'A webpage that shows a countdown until the next holiday using react components.',
+		path: 'https://github.com/DSSzymanski/CountdownWebpage',
+		tags: [react, js, mini]
 	},
 	{
 		title: 'N-Queens Visualization',
