@@ -3,12 +3,12 @@ const js = {
 	text: 'Javascript'
 }
 
-/*
+
 const python = {
 	cName: 'python',
 	text: 'Python'
 }
-*/
+
 const react = {
 	cName: 'react',
 	text: 'React'
@@ -45,5 +45,13 @@ export const CardItems = [
 		blurb: 'N-Queens puzzle solver using a backtracking algorithm and displayed on a canvas.',
 		path: 'https://github.com/DSSzymanski/N-Queens-Visualization',
 		tags: [js]
+	},
+	{
+		title: 'N-Queens',
+		img: '/',
+		blurb: 'Original N-Queens solving project. Utilizes python to display solutions to the N-Queens\
+				on the command line.',
+		path: 'https://github.com/DSSzymanski/N-Queens',
+		tags: [python]
 	}
 ];

@@ -8,7 +8,7 @@ function ContactHeader() {
             <div className="contact-page-header">
 				<h1>Contact Information</h1>
                 <div className="contact-blurb">
-                    Feel free to reach out and contact me, whether it's about job offers or to just comment or suggest improvements on the portfolio, any feedback is welcome.
+                    Feel free to reach out and contact me, even just to comment or suggest improvements on the portfolio, any feedback is welcome.
                 </div>
 			</div>
         </>
