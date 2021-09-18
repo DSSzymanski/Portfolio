@@ -4,6 +4,10 @@
 	margin-right: auto;
 }
 
+.profile-textbox-image > img {
+	width: 500px;
+}
+
 .profile-textbox-left, .profile-textbox-right {
 	display: flex;
 	margin-top: 30px;
@@ -39,9 +43,24 @@ h3 {
 		font-size: 1.6rem;
 	}
 
+	.profile-textbox-left, .profile-textbox-right {
+		display: flex;
+		flex-direction: column;
+		border-top: 5px ridge;
+		padding-top: 30px;
+		margin: 30px;
+	}
+
+	.profile-textbox-image {
+		display: flex;
+	}
+
+	.profile-textbox-image > img {
+		width: 100%;
+	}
+
 	.profile-textbox-text {
 		font-size: 1.2rem;
-		width: 80vw;
 		margin-right: auto;
 		margin-left: auto;
 		margin-top: 10px;
@@ -59,7 +78,6 @@ h3 {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		border-top: 5px ridge;
 		margin-top: 10px;
 	}
 }

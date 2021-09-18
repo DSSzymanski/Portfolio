@@ -12,7 +12,7 @@ function ProfileTextBoxes() {
 						return (
 							<li key={index} className={item.cName}>	
 								<div className="profile-textbox-image">
-									<img src={item.image} alt={item.image_alt} width='500px'/>
+									<img src={item.image} alt={item.image_alt} />
 								</div>
 								<div className="profile-textbox-container">
 									<h3>{item.title}</h3>
