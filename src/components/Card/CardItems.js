@@ -48,7 +48,7 @@ export const CardItems = [
 	},
 	{
 		title: 'N-Queens',
-		img: '/',
+		img: 'images/N-Queens-Python.png',
 		blurb: 'Original N-Queens solving project. Utilizes python to display solutions to the N-Queens ' +
 				'on the command line.',
 		path: 'https://github.com/DSSzymanski/N-Queens',

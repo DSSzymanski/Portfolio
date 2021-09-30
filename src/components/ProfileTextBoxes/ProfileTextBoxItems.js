@@ -5,9 +5,6 @@ export const ProfileTextBoxItems = [
 "mix of Python and Web development. In my free time I enjoy reading various articles on AI/machine learning. My goal is " +
 "to continue to develop and expand my repertoire of skills.\n\n\tOutside of programming, I enjoy fishing, hiking, " +
 "listening to music, playing chess, and reading.",
-		cName: 'profile-textbox-right',
-		image: 'images/Hut-View.jpg',
-		image_alt: 'Ashley Reservoir Hut'
 	},
 	{
 		title: 'Experience',
@@ -15,15 +12,9 @@ export const ProfileTextBoxItems = [
 "Computer Science (Graduated 2019)\n\nJob Experience: Cooley Dickinson Hospital - Telecommunications Operator:\n" +
 "Utilized degree to organize and update hospital's emergency code system from paper hanging files into a website " +
 "hosted on their intranet. Website utilized using Bootstrap to organize and basic javascript.",
-		cName: 'profile-textbox-left',
-		image: '/',
-		image_alt: '/'
 	},
 	{
 		title: 'Skills',
 		details: "Python - experience with Django and Numpy\nWeb Development - experience with HTML/CSS/Javascript and React",
-		cName: 'profile-textbox-right',
-		image: '/',
-		image_alt: '/'
 	}
 ]
