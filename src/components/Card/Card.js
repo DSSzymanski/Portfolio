@@ -29,7 +29,7 @@ function Card(props) {
 					{props.item.blurb}
 				</div>
 				<div className="card-icon">
-					<img src='images/Github-Mark-Light-32px.png' alt='Github'></img>
+					<img src='images/GitHub-Mark-Light-32px.png' alt='Github'></img>
 				</div>
 			</div>
 		</a>
